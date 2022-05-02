@@ -6,25 +6,21 @@
     if(outputThree === "+") {
         let answer = parseInt(outputOne) + parseInt(outputTwo);
         document.getElementById ("answer").innerHTML = answer;
-        console.log("add")
         console.log("answer");
     
     } else if(outputThree === "-") {
         let answer = outputOne - outputTwo;
         document.getElementById ("answer").innerHTML = answer;
-        console.log("subtract")
         console.log("answer");
 
     } else if(outputThree === "*") {
         let answer = outputOne * outputTwo;
         document.getElementById ("answer").innerHTML = answer;
-        console.log("multiply")
         console.log("answer");
 
     } else if(outputThree === "/") {
         let answer = outputOne / outputTwo;
         document.getElementById ("answer").innerHTML = answer;
-        console.log("divide")
         console.log("answer");
 
         
